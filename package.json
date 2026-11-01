@@ -1,0 +1,35 @@
+{
+  "name": "boss-haitou",
+  "version": "1.0.0",
+  "description": "Boss直聘 批量投递与打招呼工具：采集岗位、按规则筛选、自动投递并发送自定义话术",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "boss-haitou": "./src/cli.mjs"
+  },
+  "scripts": {
+    "status": "node src/cli.mjs status",
+    "collect": "node src/cli.mjs collect",
+    "apply": "node src/cli.mjs apply",
+    "greet": "node src/cli.mjs greet",
+    "run": "node src/cli.mjs run"
+  },
+  "files": [
+    "src",
+    "config.example.json",
+    "message.example.txt",
+    "docs"
+  ],
+  "keywords": [
+    "boss直聘",
+    "zhipin",
+    "job-search",
+    "automation",
+    "cdp",
+    "chrome-devtools-protocol"
+  ],
+  "license": "MIT",
+  "private": false
+}

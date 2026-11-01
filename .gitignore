@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# local configuration and personal data — never commit these
+config.json
+message.txt
+data/
+
+# logs and scratch files
+*.log
+work/
+tmp/
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

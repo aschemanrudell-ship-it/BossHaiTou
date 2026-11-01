@@ -1,0 +1,31 @@
+{
+  "cdp": "http://127.0.0.1:9222",
+  "city": "",
+  "keywords": ["python实习", "后端实习", "开发实习生"],
+
+  "limits": {
+    "perRound": 15,
+    "roundIntervalMin": 20,
+    "maxRounds": 20,
+    "maxPerDay": 120
+  },
+
+  "pacing": {
+    "afterNavigate": 2500,
+    "afterClick": 1800,
+    "afterTabSwitch": 3000,
+    "afterConversationOpen": 2500,
+    "betweenMessages": 4000
+  },
+
+  "keepPattern": "python|数据|算法|测试|运维|自动化|脚本|爬虫|机器学习|深度学习|量化|实施|AI|人工智能|大模型|智能体|agent|后端|开发|全栈|Node|React",
+
+  "dropPattern": "剪辑|生图|视频|运营|视觉设计|自动驾驶|嵌入式|java|前端|助教|兼职|销售|客服|行政|人事|财务|产品经理|主播|美工|教师|讲师|Lua|小白|无责|开单|包住|可培训|零基础|不限经验|博士|硕士|高级|资深|专家|架构师|负责人|总监|外包|驻场",
+
+  "dropExemptPattern": "全栈",
+
+  "requireIntern": true,
+  "internPattern": "实习|校招|intern",
+
+  "hardBlockPattern": "java|golang|\\.net|php|c#"
+}
